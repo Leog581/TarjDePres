@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Condensed", sans-serif;
+    background-image: url('https://wallpapers.com/images/hd/funky-color-burst-art-gd0ik4x0qszkolki.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.cont-tarjeta {
+    width: 350px;
+    height: 620px;
+    margin: auto;
+    transform: translateY(0px);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #3C3F42;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+    min-height: 350px;
+    max-width: 620px;
+}
+
+.cont-tarjeta_logo {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.cont-tarjeta h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.cont-tarjeta_logo img {
+    width: 150px;
+    height: 195px;
+    border-radius: 50%;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.cont-tarjeta p {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.cont-tarjeta_iconos {
+    display: flex;
+    flex-direction: row;
+    transform: translateY(100px);
+    justify-content: center;
+}
+
+.cont-tarjeta_iconos div > img {
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+}
+
+.cont-tarjeta_iconos div {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.cont-tarjeta_iconos .div1 > p {
+    margin-top: 10px;
+}
+
+.cont-tarjeta_iconos .div1 {
+    background-color: #ff92926c;
+}
+
+.cont-tarjeta_iconos .div1:hover {
+    background-color: #ff9292e5;
+}
+
+.cont-tarjeta_iconos .div2 {
+    background-color: #e6ddff;
+}
+
+.cont-tarjeta_iconos .div2:hover {
+    background-color: rgba(180, 160, 235, 0.69);
+}
+
+.cont-tarjeta article {
+    transform: translateY(130px);
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 1.4rem;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.qr-code img {
+    width: 100px;
+    height: 100px;
+}
